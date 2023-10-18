@@ -8,7 +8,19 @@ def even_list(int_list: List[int]) -> List[int]:
     Returns:
     A list of even integers.
     """
+
+    
+
     # TODO: Implement even_list
+
+    res=[]
+    for num in int_list:
+        if num%2==0:
+            res.append(num)
+
+    return res
+
+
     pass
 
 # Skeleton code for sum_of_squares_of_even
